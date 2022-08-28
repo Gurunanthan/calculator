@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+    <link rel="stylesheet" href="global.css">
+    <script src="calculator.js"></script>
+</head>
+<body>
+    <ul>
+        <li><h1>calculator</h1></li>
+    </ul>
+    <center>
+        <div class="calculatorapp">
+                <table cellspacing="10">
+                    <tr>
+                        <td>
+                            <input type="text" id="Value1" placeholder="Enter the Value1">
+                        </td>
+                        <td>
+                            <input type="text" id="Value2" placeholder="Enter the Value2">
+                        </td>
+                    </tr>
+                </table>
+            <div class="operationsbutton">
+                <center><table>
+                    <tr>
+                        <td><button onclick="Add()">Add</button></td>
+                        <td><button onclick="Subract()">Subract</button></td>
+                    </tr>
+                    <tr>
+                        <td><button onclick="Multiply()">Multiply</button>
+                        </td><td><button onclick="Division()" id="h">Division</button></td>
+                    </tr>
+                </table>
+            </center> 
+            </div>
+        </div>
+        
+    
+    <h3 id="out">Your Output</h5>
+    <h4 id="output"></h4>
+</center>
+</body>
+</html>
